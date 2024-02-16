@@ -1,0 +1,115 @@
+.imag{
+    /* margin-left: 1rem; */
+    height: 50px;
+    
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.picture{
+    /* height: 18rem;
+    width: 100vw; */
+    padding-top: 8rem;
+    color: #112378;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    position: relative;
+}
+.icon{
+    height: 3rem;
+    width: 2rem;
+    /* position: start; */
+    margin-left: 1150px;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.icon{
+    height: 3rem;
+    width: 2rem;
+    /* position: start; */
+    margin-left: 1150px;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.bell{
+    margin: 2rem;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #112378;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 5rem;
+}
+
+.cart {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cart-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.item-image {
+    flex: 1;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.item-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.item-details {
+    flex: 2;
+}
+
+.item-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    color: #112378;
+}
+
+.total {
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #112378;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
