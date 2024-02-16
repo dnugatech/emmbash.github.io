@@ -22,10 +22,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Your POST request handling code here
 }
 
-
-
-
-
-
 // ?>
 

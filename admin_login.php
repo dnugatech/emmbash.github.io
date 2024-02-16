@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($user['is_admin']) {
                 // Admin login successful, store admin ID in session for future use
                 $_SESSION['admin_id'] = $user['id'];
-                header('Location: admin_dashboard.php'); // Redirect to admin dashboard
+                header('Location: admin_dashboard.html'); // Redirect to admin dashboard
                 exit;
             } else {
                 $errors[] = 'You are not authorized to access the admin panel.';
@@ -178,8 +178,8 @@ button:hover{
         <h2><b>Admin Login</b></h2>
         <input type="email" placeholder="Email Address or ID"><br>
         <input type="password" placeholder="Password"><br>
-        <button class="signup">Login</button>
-        <a href="recoverpassword.html"><h5>Forgot your Password?</h5></a>
+        <a href="dashboard.html"><button class="signup">Login</button></a>
+        <a href="recoverpassword.php"><h5>Forgot your Password?</h5></a>
         <h3>OR</h3>
         <button><i class="fa-brands fa-google" style="color: white;"></i>  Sign Up with Google</button>
         <button><i class="fa-brands fa-facebook" style="color: white;"></i>  Sign Up with Facebook</button>
@@ -187,7 +187,7 @@ button:hover{
         <div class="anchor">
             
             <h4>Don't have an account?</h4>
-            <a href="signup.html"><h4>Sign up</h4></a>
+            <a href="signup.php"><h4>Sign up</h4></a>
         </div>
     </div>
     </form>

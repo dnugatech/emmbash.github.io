@@ -163,8 +163,8 @@ button:hover{
         <h2><b>Login</b></h2>
         <input type="email" placeholder="Email Address or Phone Number"><br>
         <input type="password" placeholder="Password"><br>
-        <button class="signup">Login</button>
-        <a href="recoverpassword.html"><h5>Forgot your Password?</h5></a>
+        <a href="dashboard.html"><button class="signup">Login</button></a>
+        <a href="recoverpassword.php"><h5>Forgot your Password?</h5></a>
         <h3>OR</h3>
         <button><i class="fa-brands fa-google" style="color: #112378;"></i>  Sign Up with Google</button>
         <button><i class="fa-brands fa-facebook" style="color: #112378;"></i>  Sign Up with Facebook</button>
@@ -172,7 +172,7 @@ button:hover{
         <div class="anchor">
             
             <h4>Don't have an account?</h4>
-            <a href="signup.html"><h4>Sign up</h4></a>
+            <a href="signup.php"><h4>Sign up</h4></a>
         </div>
     </div>
     </form>
